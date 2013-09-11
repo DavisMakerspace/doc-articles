@@ -5,8 +5,6 @@ Version           : 1.0.20120827
 Base Header Level : 3
 CSS               : html/css/reset.css
 CSS               : html/css/articles.css
-HTML header       : <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-HTML header       : <script src="html/js/articles.js"></script>
 LaTeX input       : tex/mmd-template-articles
 
 # Name

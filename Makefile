@@ -13,3 +13,4 @@ pdf: articles.md
 html: articles.md
 	@echo "Building articles.html"
 	@multimarkdown articles.md > articles.html
+	@python html/format_html.py articles.html
