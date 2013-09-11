@@ -1,0 +1,107 @@
+html
+{
+	width:			700px;
+	margin:			20px auto;
+	background:		grey;
+}
+
+body
+{
+	padding:		20px 20px 20px 120px;
+	font-family:		"Times New Roman", Serif;
+	font-size:		14px;
+	text-align:		justify;
+	color:			#444;
+	background:		white;
+	border:			2px solid black;
+}
+
+h3
+{
+	color:			#111;
+	font-weight:		bold;
+	text-transform:		uppercase;
+	margin-bottom:		0.5em;
+}
+
+h4, h5
+{
+	color:			#111;
+	text-decoration:	underline;
+	margin-bottom:		0.5em;
+}
+
+h6
+{
+	margin-top:		5em;
+}
+
+ul
+{
+	margin:			0 0 1em 2em;
+	list-style-type:	disc;
+}
+
+ul ul
+{
+	list-style-type:	circle;
+}
+
+ul ul ul
+{
+	list-style-type:	square;
+}
+
+ol
+{
+	margin:			0 0 1em 2em;
+	list-style-type:	decimal;
+}
+
+li
+{
+	margin-bottom:		0.5em;
+}
+
+p, pre
+{
+	margin-bottom:		1.5em;
+}
+
+a {
+	color:			#0099ff;
+	text-decoration:	none;
+	vertical-align:		baseline;
+}
+a:hover {
+	color:			#ff6600;
+	text-decoration:	underline;
+}
+
+.index
+{
+	float:			left;
+	margin-left:		-100px;
+	color:			#111;
+}
+
+.padded:before
+{
+	content:		'\2002\2002\2002\2014\2002';
+}
+
+.bold
+{
+	font-weight:		bold;
+}
+
+pre
+{
+	padding-left:		2.5em;
+}
+
+pre:last-child
+{
+	padding-top:		2em;
+	text-align:		right;
+}
