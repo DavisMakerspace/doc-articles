@@ -29,7 +29,7 @@ for header in re.findall('<h[3-5].*?</h[3-5]>', html):
     if header[2] == '5':
         counters[2] += 1
         targets[id]  = "Section {0}.{1}.{2}".format(*counters)
-        label = "<div class='index padded'>Section {0}.{1}.{2}</div>".format(*counters)
+        label = "<div class='index padded'>{0}.{1}.{2}</div>".format(*counters)
     # Prepend the label
     html = re.sub(header, label+header, html)
 
